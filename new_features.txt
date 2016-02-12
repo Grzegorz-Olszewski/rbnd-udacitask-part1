@@ -1,0 +1,4 @@
+New feautures: 
+1. Due dates. When you add new item, you can set a due date by passing third argument. If you don't, due day will be today.
+2. Saving list and loading list. Methods save_list and load_list use Marshal to serialize list to file, and deserialize list from file.
+3. Method how_am_i_doing that comments your productivity.
