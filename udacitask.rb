@@ -3,7 +3,7 @@ require_relative "todolist.rb"
 list = TodoList.new("UdaciList")
 # Add four new items
 thing1 = Item.new("Become superhuman",list,"Tomorrow")
-thing2 = Item.new("Learn how to fly",list)
+thing2 = Item.new("Learn how to fly",list,"2017:05:27")
 thing3 = Item.new("Do laundry",list)
 thing4 = Item.new("Make a cake",list)
 	
@@ -26,13 +26,8 @@ list.change_title("My list")
 # Print the list
 list.print_list
 
-File.open('new_list', 'w+') do |f|  
-  Marshal.dump(list, f)  
-end  
+TodoList.save_list(list,"new_list")
 
-File.open('old_list') do |f|  
-  @old_list = Marshal.load(f)  
-end  
-
-@old_list.print_list
-@old_list.how_am_i_doing
+old_list = TodoList.load_list("old_list")
+old_list.print_list	
+old_list.how_am_i_doing
