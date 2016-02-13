@@ -1,26 +1,9 @@
-commit 6ec3e4327bc02fd6447ae443e62a5411191d05f7
+commit d15c855a4550cb1ab865fcb277c689bd4bfab560
 Author: Grzegorz-Olszewski <grzegorz.olszewski10@gmail.com>
-Date:   Fri Feb 12 17:15:14 2016 +0100
+Date:   Sat Feb 13 09:46:14 2016 +0100
 
-    FINAl!
+    Final version with new_features and log files.
 
-commit 08904d30dd57980b6155b9d370f3fe881d7796ba
-Author: Grzegorz-Olszewski <grzegorz.olszewski10@gmail.com>
-Date:   Fri Feb 12 17:14:17 2016 +0100
-
-    Really final :)
-
-commit b1b6d4010f3ff0bbbb7b6b7429c21ab1b5b4a0f4
-Author: Grzegorz-Olszewski <grzegorz.olszewski10@gmail.com>
-Date:   Fri Feb 12 17:01:40 2016 +0100
-
-    Puppies added.
-
-commit beb432cc4696c0a3b38a94a896e7f231772437d9
-Author: Grzegorz-Olszewski <grzegorz.olszewski10@gmail.com>
-Date:   Fri Feb 12 16:55:34 2016 +0100
-
-    Final version.
 
 commit 5186f82872c58743b1b8b88440fa7fb287a75a3e
 Author: Grzegorz Olszewski <grzegorz.olszewski10@gmail.com>
