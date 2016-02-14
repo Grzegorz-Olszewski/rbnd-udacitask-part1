@@ -6,9 +6,6 @@ class TodoList
 		@title = list_title
 		@items = Array.new
 	end
-	def change_title(new_title)
-		@title = new_title
-	end
 	def delete_item(number_in_array)
 		@items.delete_at(number_in_array)
 	end
@@ -85,5 +82,4 @@ class Item
 		end
 		print "#{completion_mark} #{@due_date} #{@description} \n"
 	end
-
 end
