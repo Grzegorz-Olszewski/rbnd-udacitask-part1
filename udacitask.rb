@@ -22,7 +22,7 @@ list.items[0].change_completion_status
 # Print the list
 list.print_list
 # Update the title of the list
-list.change_title("My list")
+list.title = "My list"
 # Print the list
 list.print_list
 

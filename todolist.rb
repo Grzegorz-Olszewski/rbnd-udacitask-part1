@@ -44,14 +44,14 @@ class TodoList
 	end
 	def self.save_list(list_to_save,f_to_save)
 		File.open(f_to_save, 'w+') do |f|  
-  		Marshal.dump(list_to_save, f)  
+			Marshal.dump(list_to_save, f)  
 		end  
 	end
 	def self.load_list(name_of_file)
 		File.open(name_of_file)do |f|  
- 		Marshal.load(f)  
-		end  
-	end
+		Marshal.load(f)  
+	end  
+end
 end
 
 
@@ -69,7 +69,7 @@ class Item
 			@completed_status = true
 		else 
 			@completed_status = false
-		end
+	end
 	end
 	def completed?
 		if @completed_status == false
@@ -87,11 +87,3 @@ class Item
 	end
 
 end
- list = TodoList.new("Secret to do list")
-# Add four new items
-thing1 = Item.new("Destabilize world economy",list,"Sunday")
-thing2 = Item.new("Learn how to play flute",list)
-thing3 = Item.new("Conquer the world",list)
-thing4 = Item.new("Watch Rocky",list)
-
-TodoList.save_list(list,"old_list")
